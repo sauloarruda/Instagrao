@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Timeline.h"
 
-@interface ViewController : UIViewController
+@interface MuralViewController : UITableViewController<TimelineDelegate>
 
 @end
